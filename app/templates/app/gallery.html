@@ -1,0 +1,77 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}</h2>
+<h3>{{ message }}</h3>
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'app/content/Gallery.css' %}" />
+
+<body>
+    <div class="row">
+        <div class="column">
+            <a href="../../static/app/images/gallery1.jpg">
+                <img src="../../static/app/images/gallery1.jpg" alt="rook1" width="200" height="150">
+            </a>
+            <a href="../../static/app/images/gallery2.jpg">
+                <img src="../../static/app/images/gallery2.jpg" alt="rook2" width="200" height="150">
+            </a>
+            <a href="">
+                <img src="../../static/app/images/gallery3.jpg" alt="rook3" width="200" height="150">
+            </a>
+            <a href="../../static/app/images/gallery4.jpg">
+                <img src="../../static/app/images/gallery4.jpg" alt="rook4" width="200" height="150">
+            </a>
+        </div>
+        <div class="column">
+            <a href="../../static/app/images/gallery5.jpg">
+                <img src="../../static/app/images/gallery5.jpg" alt="rook1" width="200" height="150">
+            </a>
+            <a href="../../static/app/images/gallery6.jpg">
+                <img src="../../static/app/images/gallery6.jpg" alt="rook2" width="200" height="150">
+            </a>
+            <a href="../../static/app/images/gallery7.jpg">
+                <img src="../../static/app/images/gallery7.jpg" alt="rook3" width="200" height="150">
+            </a>
+            <a href="../../static/app/images/gallery8.jpg">
+                <img src="../../static/app/images/gallery8.jpg" alt="rook4" width="200" height="150">
+            </a>
+        </div>
+        <div class="column">
+            <a href="../../static/app/images/gallery9.jpg">
+                <img src="../../static/app/images/gallery9.jpg" alt="rook1" width="200" height="150">
+            </a>
+            <a href="../../static/app/images/gallery10.jpg">
+                <img src="../../static/app/images/gallery10.jpg" alt="rook2" width="200" height="150">
+            </a>
+            <a href="../../static/app/images/gallery11.jpg">
+                <img src="../../static/app/images/gallery11.jpg" alt="rook3" width="200" height="150">
+            </a>
+            <a href="../../static/app/images/gallery12.jpg">
+                <img src="../../static/app/images/gallery12.jpg" alt="rook4" width="200" height="150">
+            </a>        
+        </div>
+        <div class="column">
+            <a href="../../static/app/images/gallery13.jpg">
+                <img src="../../static/app/images/gallery13.jpg" alt="rook1" width="200" height="150">
+            </a>
+            <a href="../../static/app/images/gallery14.jpg">
+                <img src="../../static/app/images/gallery14.jpg" alt="rook2" width="200" height="150">
+            </a>
+            <a href="../../static/app/images/gallery15.jpg">
+                <img src="../../static/app/images/gallery15.jpg" alt="rook3" width="200" height="150">
+            </a>
+            <a href="./../static/app/images/gallery16.jpg">
+                <img src="../../static/app/images/gallery16.jpg" alt="rook4" width="200" height="150">
+            </a>
+        </div>
+    </div>
+
+</body>
+
+{% endblock %}
+ 
+
+
+

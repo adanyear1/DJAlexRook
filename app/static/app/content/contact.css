@@ -1,0 +1,14 @@
+body {
+    height: 400%;
+    background-image: url("../images/background1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    color: white;
+}
+address{
+    color: white;
+}

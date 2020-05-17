@@ -1,0 +1,53 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<!-- Jumbotron -->
+<div class="header">
+    <video controls="controls" width="1000" height="520" autoplay>
+        <source src="../../static/app/images/video1.mp4" type="video/mp4" />
+        <source src="../../static/app/images/video1.ogg" type="video/ogg">
+    </video>
+</div>
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'app/content/homepage.css' %}" />
+
+<body>
+
+<div class="row">
+
+    <div class="column">
+        <h2>Sacred Space </h2>
+        <iframe width="300" height="300" scrolling="no" frameborder="0" allow="autoplay" 
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/719591416&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+        </iframe>
+    </div>
+
+    <div class="column">
+        <h2>@Home Set</h2>
+        <!-- Load Facebook SDK for JavaScript -->
+        <div id="fb-root"></div>
+        <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+
+        <!-- Your embedded video player code -->
+        <div class="fb-video" data-href="https://www.facebook.com/watch/?v=239916157248422" data-width="300" data-show-text="false">
+            <div class="fb-xfbml-parse-ignore">
+            <blockquote cite="https://www.facebook.com/watch/?v=239916157248422">
+                <a href="https://www.facebook.com/watch/?v=239916157248422">How to Share With Just Friends</a>
+                <p>How to share with just friends.</p>
+                Posted by <a href="https://www.facebook.com/facebook/">Facebook</a> on Friday, December 5, 2014
+            </blockquote>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+
+<footer>
+{% endblock %}
+</footer>
+
+

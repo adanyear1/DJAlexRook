@@ -1,0 +1,17 @@
+body {
+    height: 100%;
+    background-image: url("../images/about.jpg")
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+p{
+    background-color: black;
+    color: white;
+}

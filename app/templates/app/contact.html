@@ -1,0 +1,24 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}</h2>
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'app/content/contact.css' %}" />
+
+<address>
+    <strong>Social Media</strong><br />
+    <a href="https://soundcloud.com/rookatx">Soundcloud</a><br />
+    <a href="https://www.facebook.com/Alex-Rook-Page-114563236903301/">Facebook</a><br />
+    <a href="https://www.instagram.com/alexrookdj/">Instagram</a><br />
+    <a href="https://www.facebook.com/groups/175405250155151//">ATX Techno Underground</a><br />
+</address>
+
+<address>
+    <strong>Bookings: </strong><br />
+    Phone: (512) 630-7595<br />
+    Email: <a href="mailto:mailto:arooktx@gmail.com">arooktx@gmail.com</a><br />
+</address>
+
+{% endblock %}

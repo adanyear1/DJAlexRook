@@ -1,17 +1,25 @@
 body {
     height: 100%;
-    background-image: url("../images/about.jpg")
+    background-image: url("../images/about.jpg"); 
+    text-align: center;
 }
 
 h2{
+    text-align: center;
     color: white;
 }
 
-h3{
+h3 {
+    text-align: center;
     color: white;
 }
 
 p{
     background-color: black;
+    color: white;
+}
+
+p1 {
+    text-align: center;
     color: white;
 }

@@ -8,6 +8,24 @@
 <h2>{{ title }}</h2>
 <h3>{{ message }}</h3>
 
-<p>Due to the current COVID-19 pandemic I am not doing live shows. I do invite you to check out my Facebook Live sets. </p>
+<body>
+    <p>Due to the current COVID-19 pandemic I am not doing live shows. I do invite you to check out my most recent Facebook Live set. </p>
+    <div class="column">
+        <!-- Load Facebook SDK for JavaScript -->
+        <div id="fb-root"></div>
+        <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+    </div>
+
+        <!-- Your embedded video player code -->
+        <div class="fb-video" data-href="https://www.facebook.com/watch/?v=239916157248422" data-width="300" data-show-text="false">
+            <div class="fb-xfbml-parse-ignore">
+            <blockquote cite="https://www.facebook.com/watch/?v=239916157248422">
+                <a href="https://www.facebook.com/watch/?v=239916157248422">How to Share With Just Friends</a>
+                <p>How to share with just friends.</p>
+                Posted by <a href="https://www.facebook.com/facebook/">Facebook</a> on Friday, December 5, 2014
+            </blockquote>
+        </div>
+    </div>
+</body>
 
 {% endblock %}

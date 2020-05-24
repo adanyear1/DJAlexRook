@@ -4,11 +4,18 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
 
 h2{
+    text-align: center;
     color: white;
 }
 address{
+    color: white;
+}
+
+p1 {
+    text-align: center;
     color: white;
 }
